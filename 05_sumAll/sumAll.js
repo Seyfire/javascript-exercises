@@ -4,12 +4,10 @@ const sumAll = function(num1, num2) {
     let startNum = 0;
     let endNum = 0;
 
-    if (num1 < 0 || num2 < 0) ||
-        () ||
-        () {
+    if ((num1 < 0 || num2 < 0) ||
+       (!Number.isInteger( num1 + num2 ))) {
         return 'ERROR';
     }
-
 
     if (num1 < num2) {
         startNum = num1;
